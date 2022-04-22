@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'add_user.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -95,6 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            AddUser('adil', 'moumni', 10),
             const Text(
               'You have pushed the button this many times:',
             ),
